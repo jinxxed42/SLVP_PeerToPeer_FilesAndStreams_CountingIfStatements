@@ -108,9 +108,9 @@ namespace SLVP_PeerToPeer_FilesAndStreams_CountingIfStatements
             }
             else
             {
-#pragma warning disable 8601
+                #pragma warning disable 8601
                 _ifLineFound -= AddIfLineToDebug; // The event would always be added here. But even if it wasn't added it
-#pragma warning restore 8601                      // would not cause an exception so warning disabled.
+                #pragma warning restore 8601      // would not cause an exception so warning disabled.
             }
         }
 
@@ -123,9 +123,9 @@ namespace SLVP_PeerToPeer_FilesAndStreams_CountingIfStatements
             }
             else
             {
-#pragma warning disable 8601
+                #pragma warning disable 8601
                 _ifLineFound -= AddIfLineToFile; // The event would always be added here. But even if it wasn't added it
-#pragma warning restore 8601                     // would not cause an exception so warning disabled.
+                #pragma warning restore 8601     // would not cause an exception so warning disabled.
             }
         }
     }
